@@ -1,0 +1,606 @@
+# depslib dependency file v1.0
+1687087547 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\game.cpp
+	"Game.hpp"
+	"ConstantsSize.h"
+	"TextureManager.hpp"
+	"GameObject.hpp"
+	"ScoreObjects.hpp"
+	"ObjectManager.hpp"
+	"Counter.hpp"
+
+1687253032 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\game.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<iostream>
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1680720481 c:\libs_sdl2\sdl2-2.26.5\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1675730672 c:\libs_sdl2\sdl2_image-2.6.3\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1687251846 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\main.cpp
+	"Game.hpp"
+	"ConstantsSize.h"
+	"initWindow.hpp"
+	"TextRender.hpp"
+	"Menu.hpp"
+	"filesForRecords.hpp"
+	<cstdlib>
+	<ctime>
+	<string>
+	<sstream>
+
+1683743386 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\texturemanager.cpp
+	"TextureManager.hpp"
+
+1684088611 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\texturemanager.hpp
+	"Game.hpp"
+
+1685869728 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\gameobject.hpp
+	"Game.hpp"
+
+1685876186 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\gameobject.cpp
+	"GameObject.hpp"
+	"TextureManager.hpp"
+
+1686131006 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\scoreobjects.cpp
+	"ScoreObjects.hpp"
+	"TextureManager.hpp"
+	"Game.hpp"
+	"ConstantsSize.h"
+	<cstdlib>
+
+1687178051 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\scoreobjects.hpp
+	"Game.hpp"
+	"GameObject.hpp"
+
+1686740322 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\objectmanager.hpp
+	"Game.hpp"
+	"ScoreObjects.hpp"
+	"Counter.hpp"
+	<vector>
+	<memory>
+
+1686740863 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\objectmanager.cpp
+	"ObjectManager.hpp"
+	"ScoreObjects.hpp"
+	"Counter.hpp"
+
+1685868393 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\constantssize.h
+
+1675732513 c:\libs_sdl2\sdl2_ttf-2.20.2\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1687087547 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\counter.cpp
+	"Counter.hpp"
+	<string>
+
+1687087387 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\counter.hpp
+	"Game.hpp"
+	<string>
+
+1687081691 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\initwindow.cpp
+	"initWindow.hpp"
+	"ConstantsSize.h"
+
+1687099373 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\initwindow.hpp
+	"Game.hpp"
+
+1686395895 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\textrender.cpp
+	"TextRender.hpp"
+	<string>
+
+1686221278 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\textrender.hpp
+	"Game.hpp"
+
+1686739210 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\menu.hpp
+	"Game.hpp"
+	<vector>
+
+1687099440 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\menu.cpp
+	"Menu.hpp"
+	"ConstantsSize.h"
+	"TextRender.hpp"
+	"initWindow.hpp"
+	<string>
+	<fstream>
+	<algorithm>
+
+1687084599 source:c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\filesforrecords.cpp
+	"filesForRecords.hpp"
+
+1687084524 c:\users\kmiha\onedrive\Рабочий стол\work\game_on_С++\snow_on_head\filesforrecords.hpp
+	"Game.hpp"
+	"TextRender.hpp"
+	"ConstantsSize.h"
+	<fstream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<string>
+
+1687087547 source:c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\counter.cpp
+	"Counter.hpp"
+	<string>
+
+1687087387 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\counter.hpp
+	"Game.hpp"
+	<string>
+
+1687254718 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\game.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<iostream>
+
+1687084599 source:c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\filesforrecords.cpp
+	"filesForRecords.hpp"
+
+1687084524 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\filesforrecords.hpp
+	"Game.hpp"
+	"TextRender.hpp"
+	"ConstantsSize.h"
+	<fstream>
+	<algorithm>
+	<iomanip>
+	<vector>
+	<string>
+
+1686221278 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\textrender.hpp
+	"Game.hpp"
+
+1685868393 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\constantssize.h
+
+1685876186 source:c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\gameobject.cpp
+	"GameObject.hpp"
+	"TextureManager.hpp"
+
+1685869728 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\gameobject.hpp
+	"Game.hpp"
+
+1684088611 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\texturemanager.hpp
+	"Game.hpp"
+
+1687081691 source:c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\initwindow.cpp
+	"initWindow.hpp"
+	"ConstantsSize.h"
+
+1687099373 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\initwindow.hpp
+	"Game.hpp"
+
+1687099440 source:c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\menu.cpp
+	"Menu.hpp"
+	"ConstantsSize.h"
+	"TextRender.hpp"
+	"initWindow.hpp"
+	<string>
+	<fstream>
+	<algorithm>
+
+1686739210 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\menu.hpp
+	"Game.hpp"
+	<vector>
+
+1686740863 source:c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\objectmanager.cpp
+	"ObjectManager.hpp"
+	"ScoreObjects.hpp"
+	"Counter.hpp"
+
+1686740322 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\objectmanager.hpp
+	"Game.hpp"
+	"ScoreObjects.hpp"
+	"Counter.hpp"
+	<vector>
+	<memory>
+
+1687178051 c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\scoreobjects.hpp
+	"Game.hpp"
+	"GameObject.hpp"
+
+1686131006 source:c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\scoreobjects.cpp
+	"ScoreObjects.hpp"
+	"TextureManager.hpp"
+	"Game.hpp"
+	"ConstantsSize.h"
+	<cstdlib>
+
+1686395895 source:c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\textrender.cpp
+	"TextRender.hpp"
+	<string>
+
+1683743386 source:c:\users\kmiha\onedrive\Рабочий стол\work\snow_on_head\texturemanager.cpp
+	"TextureManager.hpp"
+
